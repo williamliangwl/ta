@@ -1,0 +1,44 @@
+.menu-container {
+  background-color: rgb(72, 165, 211);
+  padding: 20px;
+}
+.menu {
+  margin: 0;
+}
+li {
+  display: inline-block;
+  color: white;
+  margin: 0 25px;
+}
+.menu-border1 {
+  background-color: rgb(59, 151, 202)
+}
+.menu-border2 {
+  background-color: rgb(21, 130, 191)
+}
+.main-bg {
+  background-color: rgb(26, 143, 200)
+}
+.center-text {
+  text-align: center
+}
+.tagline {
+  color: white;
+}
+
+#logo {
+  margin-top: 25px;
+}
+#tagline1 {
+  margin-top: 30px;
+}
+#welcome-boy-girl {
+  margin-top: 30px;
+}
+
+
+@media only screen and (max-width: 576px) {
+  .display-4 {
+    font-size: 2rem;
+  }
+}
