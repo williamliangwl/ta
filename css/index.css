@@ -1,23 +1,27 @@
 .menu-container {
   background-color: rgb(72, 165, 211);
-  padding: 20px;
+  padding: 18px 20px;
 }
 .menu {
   margin: 0;
 }
-li {
+.menu > li {
   display: inline-block;
   color: white;
   margin: 0 25px;
 }
 .menu-border1 {
-  background-color: rgb(59, 151, 202)
+  background-color: rgb(59, 151, 202);
+  height: 15px;
 }
 .menu-border2 {
-  background-color: rgb(21, 130, 191)
+  background-color: rgb(21, 130, 191);
+  height: 15px;
 }
 .main-bg {
   background-color: rgb(26, 143, 200)
+  /* background: url(../images/bg1.png);
+  background-size: cover; */
 }
 .center-text {
   text-align: center
@@ -36,9 +40,54 @@ li {
   margin-top: 30px;
 }
 
+/* Halaman 2 */
+#miopi-intro-details-container {
+  padding: 20px 15px;
+}
+#miopi-intro-title {
+  color: #1A8FC8;
+  margin-bottom: 20px;
+}
+#miopi-img-container {
+  padding: 60px 20px;
+}
+ul#miopi-intro-details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul#miopi-intro-details > li:before {
+  content: '•';
+  color: #1A8FC8;
+  padding-right: 0.5em;
+}
+ul#miopi-intro-details > li {
+  padding-left: 1em;
+  text-indent: -0.9em;
+  margin-bottom: 15px;
+}
+
+#calendar-2050 {
+  margin-top: 40px;
+}
+#miopi-2050 {
+  color: #1A8FC8;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px 0px;
+}
+#miopi-2050-details-1 {
+  font-size: 22pt;
+}
+#miopi-2050-details-2 {
+  font-size: 18pt;
+}
 
 @media only screen and (max-width: 576px) {
-  .display-4 {
-    font-size: 2rem;
+  #miopi-2050-details-1 {
+    font-size: 14pt;
+  }
+  #miopi-2050-details-2 {
+    font-size: 12pt;
   }
 }
