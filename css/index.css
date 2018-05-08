@@ -1,3 +1,29 @@
+@keyframes cloudMove {
+  0%   {left:-25%;}
+  100% {left:100%;}
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.primary-text {
+  color: #1A8FC8;  
+}
+.fade-primary-text {
+  color: #1A8FC8;  
+  opacity: 0.2;  
+}
+.bold {
+  font-weight: 600;
+}
+.content-container {
+  margin-top: 40px;
+}
+.flex-column {
+  flex-direction: column;
+}
+
 .menu-container {
   background-color: rgb(72, 165, 211);
   padding: 18px 20px;
@@ -45,7 +71,6 @@
   padding: 20px 15px;
 }
 #miopi-intro-title {
-  color: #1A8FC8;
   margin-bottom: 20px;
 }
 #miopi-img-container {
@@ -67,27 +92,82 @@ ul#miopi-intro-details > li {
   margin-bottom: 15px;
 }
 
-#calendar-2050 {
-  margin-top: 40px;
-}
-#miopi-2050 {
-  color: #1A8FC8;
+#miopi-2050,
+#eye-check,
+#ideal-range {
   font-weight: 600;
   text-align: center;
   margin: 20px 0px;
 }
-#miopi-2050-details-1 {
+#miopi-2050-details-1,
+#eye-check-details-1,
+#ideal-range-details-1 {
   font-size: 22pt;
 }
-#miopi-2050-details-2 {
+#miopi-2050-details-2,
+#eye-check-details-2,
+#ideal-range-details-2 {
   font-size: 18pt;
 }
 
+#miopi-cause1-container {
+  padding: 60px 20px;
+}
+
+#solve-bg {
+  background: url(../images/sky.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#solve-container {
+  padding-top: 20%;  
+}
+#solve-details {
+  color: white;
+  padding-top: 60px;
+}
+#solve-button {
+  background-color: #E03848;
+  border-radius: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.cloud {
+  position: absolute;
+  animation-name: cloudMove;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.cloud1 {
+  margin-top: 5%;
+  animation-duration: 8s;
+}
+.cloud2 {
+  margin-top: 6%;
+  animation-duration: 14s;
+}
+.cloud3 {
+  margin-top: 8%;
+  animation-duration: 10s;
+}
+.cloud4 {
+  margin-top: 12%;
+  animation-duration: 12s;
+}
+
 @media only screen and (max-width: 576px) {
-  #miopi-2050-details-1 {
+  #miopi-2050-details-1,
+  #eye-check-details-1,
+  #ideal-range-details-1 {
     font-size: 14pt;
   }
-  #miopi-2050-details-2 {
+  #miopi-2050-details-2,
+  #eye-check-details-2,
+  #ideal-range-details-2 {
     font-size: 12pt;
+  }
+  #miopi-cause1-container,
+  #miopi-img-container {
+    padding: 0px 20px;
   }
 }
