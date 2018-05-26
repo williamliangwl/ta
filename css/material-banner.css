@@ -1,0 +1,32 @@
+#container {
+  margin-top: 80px;
+}
+#material-banner {
+  background-color: #80B747;
+}
+#banner-text-container {
+  padding: 30px 0px 30px 80px;
+}
+#banner-title {
+  font-size: 28pt;
+  color: white;
+}
+#banner-description {
+  color: white;
+  font-size: 16pt;
+}
+#banner-button {
+  background-color: #DF3848;
+  padding: 13px;
+  border-radius: 10px;
+  border: 0;
+  color: white;
+  font-size: 16pt;
+}
+#banner-button:hover {
+  cursor: pointer;
+}
+#banner-image {
+  position: absolute;
+  bottom: 0;
+}

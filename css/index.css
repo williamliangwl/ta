@@ -23,19 +23,6 @@ html, body {
 .flex-column {
   flex-direction: column;
 }
-
-.menu-container {
-  background-color: rgb(72, 165, 211);
-  padding: 18px 20px;
-}
-.menu {
-  margin: 0;
-}
-.menu > li {
-  display: inline-block;
-  color: white;
-  margin: 0 25px;
-}
 .menu-border1 {
   background-color: rgb(59, 151, 202);
   height: 15px;

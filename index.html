@@ -7,19 +7,49 @@
   <title>Fokus</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" type="text/css" media="screen" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/navbar.css">
   <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
-  <div class="container-fluid">
-    <div class="row menu-container justify-content-end">
-      <ul class="list-unstyled menu">
-        <li>AKTIVITAS</li>
-        <li>LOMBA</li>
-        <li>KONTAK</li>
-        <li>KONTAK</li>
+  <nav class="navbar navbar-expand-lg navbar-dark primary-menu-container">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            AKTIVITAS
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="./indoor.html">INDOOR</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">OUTDOOR</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">BERITA</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            KONTAK
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">INDOOR</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">OUTDOOR</a>
+          </div>
+        </li>
       </ul>
     </div>
+  </nav>
+  <div class="container-fluid">
+
     <div class="row menu-border1">&nbsp;</div>
     <div class="row menu-border2">&nbsp;</div>
 

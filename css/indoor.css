@@ -1,0 +1,75 @@
+#intro {
+  text-align: center;
+  margin: 60px 0;
+  font-size: 16pt;
+  padding: 0 30px;
+}
+.activity {
+  box-shadow: none;
+  transition: all 0.2s ease-in-out;
+}
+.activity:hover {
+  transform: translateY(-2px); 
+  box-shadow: 0px 0px 11px 2px rgba(196,196,196,0.4);
+  cursor: pointer;   
+}
+.card-image {
+  border: 1px solid #1A8EC7;
+  width: 100%;
+  height: 200px;
+}
+.card-body {
+  padding: 30px 60px;
+}
+.card-title {
+  color: #1A8EC7;
+  font-size: 21pt;
+}
+.card-description {
+  font-size: 16pt;
+}
+.detail-title {
+  color: #1A8EC7;  
+  font-size: 17pt;
+}
+.detail-description {
+  font-size: 16pt;
+}
+ul > li:before {
+  padding-right: 0.5em;
+}
+ul {
+  padding-left: 20px;
+}
+ul > li {
+  color: #1A8FC8;
+  padding-left: 0.5em;
+  margin-bottom: 5px;
+}
+ul > li > span {
+  color: black;
+}
+.detail {
+  padding-top: 40px;
+}
+.page-indicator {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  border: 1px solid #1A8EC7;
+  display: inline-block;
+  margin: 10px;
+  transition: background-color 0.5s;
+}
+.page-indicator:hover {
+  cursor: pointer;
+}
+.active-indicator {
+  background-color: #1A8EC7; 
+}
+
+#activityCarousel {
+  display: flex;
+  flex-direction: column;
+  transition: all 0.5s;
+}
