@@ -1,0 +1,50 @@
+.title {
+  font-size: 28pt;
+  color: #1A8EC7;
+}
+.icon {
+  width: 20px;
+}
+.period {
+  font-size: 23pt;
+}
+.sub-title {
+  font-size: 21pt;
+  color: #1A8EC7;
+}
+.li-container {
+  flex-basis: 5.6%;
+}
+.item {
+  margin-bottom: 20px;
+}
+.custom-ol {
+  counter-reset: item;
+  font-size: 16pt;
+}
+.custom-li {
+  counter-increment: item;
+}
+.custom-li:before {
+  content: counter(item);
+  background: #F6BD43;
+  border-radius: 100%;
+  color: white;
+  text-align: center;
+  padding: 5px 14px;
+}
+#other {
+  font-size: 17pt;
+  color: #1A8EC7;  
+}
+.card-title {
+  font-size: 21pt;
+  color: #1A8EC7;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#share {
+  margin-left: 10px;
+  margin-right: 4px;
+}
