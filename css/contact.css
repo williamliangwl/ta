@@ -1,0 +1,42 @@
+.description {
+  text-align: center;
+  font-size: 16pt;
+}
+input.form-control, textarea.form-control {
+  border: 3px solid #1A8EC7;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+input.form-control {
+  padding: 12px;
+}
+button.btn-primary {
+  background-color: #DF3848;
+  border: 1px solid #DF3848;
+}
+button.btn-primary:hover {
+  background-color: rgb(196, 48, 63);
+  border: 1px solid rgb(196, 48, 63);
+}
+.sub-title {
+  color: #1A8EC7;
+  font-size: 21pt;
+}
+.icon {
+  height: 20px;
+}
+.icon-container {
+  text-align: center;
+  display: inline-block;
+  width: 7%;
+}
+.text-container {
+  display: inline-block;
+  margin-left: 15px;
+}
+.contact {
+  margin: 10px 0;
+}
+.contact-container {
+  margin-top: 8px;
+}

@@ -34,6 +34,8 @@ html, body {
 .secondary-menu-container {
   background-color: white;
   padding: 18px 20px;
+  border-bottom: 1px solid #C8C8C8;
+  
 }
 .secondary-menu-container .nav-item .nav-link {
   color: rgb(72, 165, 211) !important;
