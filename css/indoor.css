@@ -29,18 +29,18 @@
 .detail-description {
   font-size: 16pt;
 }
-ul > li:before {
+.detail > ul > li:before {
   padding-right: 0.5em;
 }
-ul {
+.detail > ul {
   padding-left: 20px;
 }
-ul > li {
+.detail > ul > li {
   color: #1A8FC8;
   padding-left: 0.5em;
   margin-bottom: 5px;
 }
-ul > li > span {
+.detail > ul > li > span {
   color: black;
 }
 .detail {
