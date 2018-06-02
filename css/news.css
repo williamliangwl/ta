@@ -1,10 +1,16 @@
 .card {
   padding: 30px;
+  font-size: 16pt;  
+  font-family: Muli;
 }
 .card-title {
   font-size: 21pt;
   color: #1A8EC7;
+  font-family: Gotham-Rounded-Bold;
 }
 .clock-image {
   width: 20px;
+}
+.date {
+  font-size: 15pt;
 }

@@ -122,10 +122,12 @@
 .modal-title {
   color: #1A8EC7;
   font-size: 21pt;
+  font-family: Gotham-Rounded-Bold;
 }
 .address {
   font-size: 15pt;
   margin: 0.5rem 0;
+  font-family: Muli;
 }
 .map-button {
   background-color: #80B747;
@@ -134,9 +136,11 @@
   padding: 5px 10px;
   margin: 3px 0 20px;
   color: white;
+  font-family: Gotham-Rounded-Bold;  
 }
 .description {
   font-size: 16pt;
+  font-family: Muli;  
 }
 .cell-fit {
   width: 1%;
@@ -144,7 +148,11 @@
 }
 .table {
   font-size: 15pt;
+  font-family: Muli;
 }
 .modal-lg {
   max-width: 700px;
+}
+th {
+  font-family: Gotham-Rounded-Bold; 
 }

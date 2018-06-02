@@ -9,6 +9,7 @@ html, body {
 }
 .nav-item {
   margin-right: 15px;
+  font-family: Gotham-Rounded-Bold;  
 }
 .dropdown-divider {
   margin: .5rem 10px;

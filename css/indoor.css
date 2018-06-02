@@ -18,29 +18,33 @@
 .card-title {
   color: #1A8EC7;
   font-size: 21pt;
+  font-family: Muli-Bold;
 }
 .card-description {
   font-size: 16pt;
+  font-family: Muli;
 }
 .detail-title {
   color: #1A8EC7;  
   font-size: 17pt;
+  font-family: Muli-Bold;  
 }
 .detail-description {
   font-size: 16pt;
+  font-family: Muli;  
 }
-.detail > ul > li:before {
+.detail ul > li:before {
   padding-right: 0.5em;
 }
-.detail > ul {
+.detail ul {
   padding-left: 20px;
 }
-.detail > ul > li {
+.detail ul > li {
   color: #1A8FC8;
   padding-left: 0.5em;
   margin-bottom: 5px;
 }
-.detail > ul > li > span {
+.detail ul > li > span {
   color: black;
 }
 .detail {

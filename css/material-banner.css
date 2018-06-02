@@ -9,12 +9,14 @@
   padding: 30px 0px 30px 80px;
 }
 #banner-title {
-  font-size: 28pt;
+  font-size: 26pt;
   color: white;
+  font-family: Gotham-Rounded-Bold;
 }
 #banner-description {
   color: white;
   font-size: 16pt;
+  font-family: Muli;
 }
 #banner-button {
   background-color: #DF3848;
@@ -22,6 +24,7 @@
   border-radius: 10px;
   border: 0;
   color: white;
+  font-family: Gotham-Rounded-Bold;  
   font-size: 16pt;
 }
 #banner-button:hover {
