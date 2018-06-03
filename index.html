@@ -9,6 +9,8 @@
   <link rel="stylesheet" type="text/css" media="screen" href="./css/bootstrap.min.css" />
   <link rel="stylesheet" href="./css/navbar.css">
   <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/fonts.css">
 </head>
 
 <body>
@@ -24,6 +26,7 @@
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
             aria-expanded="false">
             AKTIVITAS
+            <div class="indicator-active"></div>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="right: -40px">
             <a class="dropdown-item" href="./indoor.html">DALAM RUANGAN</a>
@@ -34,17 +37,21 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./news.html">BERITA</a>
+          <a class="nav-link" href="./news.html" style="position: relative;">
+            BERITA
+            <div class="indicator-active"></div>
+          </a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
             aria-expanded="false">
             KONTAK
+            <div class="indicator-active"></div>
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="right: -30px">
-            <a class="dropdown-item" href="/contact.html">HUBUNGI KAMI</a>
+            <a class="dropdown-item" href="./contact.html">HUBUNGI KAMI</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="/organizer.html">PENYELENGGARA</a>
+            <a class="dropdown-item" href="./organizer.html">PENYELENGGARA</a>
           </div>
         </li>
       </ul>
@@ -58,6 +65,7 @@
     <!-- HALAMAN 1 -->
     <div class="row main-bg justify-content-center">
       <div class="col-12">
+        <img src="./images/banner-01.jpg" class="img-fluid background" alt="">
         <div class="row justify-content-center ">
           <div class="col-9 col-sm-5 col-md-3">
             <img id="logo" src="./images/logo.png" class="img-fluid" />
@@ -71,14 +79,14 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-10 col-sm-12 col-md-6">
-            <img id="welcome-boy-girl" src="./images/index-boy-and-girl.png" class="img-fluid" />
+            <img id="welcome-boy-girl" src="./images/index-boy-and-girl.gif" class="img-fluid" />
           </div>
         </div>
       </div>
     </div>
 
     <!-- APA ITU MIOPI -->
-    <div class="row justify-content-center content-container">
+    <div class="row justify-content-center content-container" style="margin-top: -150px">
       <div id="miopi-intro-details-container" class="col-12 col-sm-12 col-md-5 align-self-center">
         <h2 id="miopi-intro-title" class="primary-text">APA ITU MIOPI?</h2>
         <ul id="miopi-intro-details">
@@ -88,7 +96,26 @@
         </ul>
       </div>
       <div class="col-12 col-sm-12 col-md-5" id="miopi-img-container">
-        <img src="./images/index2-info1.png" alt="Informasi" class="img-fluid">
+        <div id="eye-normal">
+          MATA
+          <br> NORMAL
+        </div>
+        <div id="eye-miopi">
+          MATA
+          <br> MIOPI
+        </div>
+        <div id="eye-board">
+          KACAMATA DAN
+          <br> LENSA KONTAK
+          <br> MEMBANTU
+          <br> PENGLIHATAN
+          <br>
+          <br> TETAPI
+          <br> TIDAK BISA
+          <br> MENYEMBUHKAN
+          <br> MIOPI
+        </div>
+        <img src="./images/index2-info1.gif" alt="Informasi" class="img-fluid">
       </div>
     </div>
 
@@ -129,7 +156,7 @@
         <p>Membaca buku, menggunakan HP/komputer/tablet, dan menonton TV dalam jarak yang dekat dan waktu yang lama.</p>
       </div>
       <div class="col-12 col-sm-12 col-md-5" id="miopi-cause1-container">
-        <img src="./images/desk-items.png" alt="Informasi" class="img-fluid">
+        <img src="./images/desk-items.gif" alt="Informasi" class="img-fluid">
       </div>
     </div>
 
@@ -155,7 +182,7 @@
         <p>Keturunan dari orang tua yang menderita miopi.</p>
       </div>
       <div class="col-12 col-sm-12 col-md-5" id="miopi-cause1-container">
-        <img src="./images/miopi-family.png" alt="Informasi" class="img-fluid">
+        <img src="./images/miopi-family.gif" alt="Informasi" class="img-fluid">
       </div>
       <div id="miopi-intro-details-container" class="col-12 col-sm-12 col-md-5 d-none d-sm-block align-self-center">
         <h1 class="fade-primary-text">2.</h1>
@@ -183,7 +210,7 @@
       <div class="col-12">
         <div class="row justify-content-center" id="solve-container">
           <div class="col-12 col-md-4">
-            <img src="./images/horse-girl.png" alt="Informasi" class="img-fluid">
+            <img src="./images/horse-girl.gif" alt="Informasi" class="img-fluid">
           </div>
           <div class="col-12 col-md-5" id="solve-details">
             <h3>AKTIVITAS MENCEGAH MIOPI</h3>
@@ -192,6 +219,35 @@
             <button type="button" id="solve-button" class="btn btn-primary">YUK BERAKTIVITAS!</button>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center content-container" id="subscription">
+      <div class="col-6">
+        <p>
+          <span class="align-middle">Jangan ketinggalan informasi dari </span>
+          <span>
+            <img src="./images/logo-blue.png" class="align-middle" alt=""> </span>
+          <span class="align-middle">!</span>
+        </p>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Email Anda" aria-label="Recipient's username" aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="button">BERLANGGANAN</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row align-items-center" id="footer">
+      <div class="col-3">
+        <span>&copy; Hak cipta oleh
+          <strong>FOKUS 2018</strong>
+        </span>
+      </div>
+      <div class="col-2" id="social-container">
+        <img class="img-social" src="./images/fb.png" />
+        <img class="img-social" src="./images/instagram.png" />
       </div>
     </div>
 

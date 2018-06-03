@@ -17,8 +17,9 @@ button.btn-primary {
   font-family: Gotham-Rounded-Bold;  
 }
 button.btn-primary:hover {
-  background-color: rgb(196, 48, 63);
-  border: 1px solid rgb(196, 48, 63);
+  background-color: white;
+  color: #DF3848;
+  border: 1px solid #DF3848;
 }
 .sub-title {
   color: #1A8EC7;

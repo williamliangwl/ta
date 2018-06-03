@@ -32,9 +32,17 @@ html, body {
   height: 15px;
 }
 .main-bg {
-  background-color: rgb(26, 143, 200)
-  /* background: url(../images/bg1.png);
-  background-size: cover; */
+  background-color: rgb(26, 143, 200);
+  -webkit-clip-path: ellipse(105% 58% at 50% 21%);
+  clip-path: ellipse(105% 58% at 50% 21%);
+}
+.background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 83%;
+  margin: auto;
 }
 .center-text {
   text-align: center
@@ -140,6 +148,76 @@ ul#miopi-intro-details > li {
 .cloud4 {
   margin-top: 12%;
   animation-duration: 12s;
+}
+
+#subscription {
+  text-align: center;
+  font-family: Muli-Bold;
+  font-size: 21pt;
+  color: #1A8EC7;
+}
+#subscription img {
+  width: 70px;
+}
+#subscription button {
+  background-color: #1A8EC7;
+  border: 1px solid #1A8EC7;
+  color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+#subscription input {
+  border: 3px solid #1A8EC7;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#eye-normal {
+  position: absolute;
+  background-color: rgb(94, 175, 211);
+  color: white;
+  font-family: Muli;
+  text-align: center;
+  top: 20.4%;
+  left: 18.3%;
+  padding: 5.5% 3.4%;
+  opacity: 0;
+  transition: opacity .5s;
+}
+#eye-normal:hover {
+  opacity: 1;
+}
+#eye-miopi {
+  position: absolute;
+  background-color: rgb(94, 175, 211);
+  color: white;
+  font-family: Muli;
+  text-align: center;
+  top: 44.5%;
+  left: 18.3%;
+  padding: 5.5% 5.8%;
+  opacity: 0;
+  transition: opacity .5s;
+}
+#eye-miopi:hover {
+  opacity: 1;
+}
+#eye-board {
+  position: absolute;
+  background-color: rgb(94, 175, 211);
+  color: white;
+  font-family: Muli;
+  text-align: center;
+  top: 29.2%;
+  left: 44.5%;
+  padding: 6.8% 4.7%;
+  opacity: 0;
+  transition: opacity .5s;
+  -webkit-clip-path: circle(84% at 18.8% 42%);
+  clip-path: circle(84% at 18.8% 42%);
+}
+#eye-board:hover {
+  opacity: 1;
 }
 
 @media only screen and (max-width: 576px) {

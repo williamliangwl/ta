@@ -9,8 +9,19 @@
 .place, .place-text {
   position: absolute;
 }
+.place-text {
+  background-color: #DF3848;
+  color: white;
+  font-family: Gotham-Rounded-Bold;
+  font-size: 14.8pt;
+  white-space: normal;
+  line-height: normal;
+  transition: all .5s;
+}
 .place-text:hover {
-  cursor: pointer;
+  background-color: white;
+  color: #DF3848;
+  border: 1px solid #DF3848;
 }
 
 #museum {
@@ -96,7 +107,7 @@
   right: 32%;
 }
 #playparq-text {
-  width: 45%; 
+  width: 49%; 
   bottom: -10%;
   left: -15%; 
 }
@@ -108,7 +119,7 @@
 }
 #layang-text {
   width: 80%; 
-  bottom: -40%;
+  bottom: -44%;
   right: 5%; 
 }
 
@@ -155,4 +166,47 @@
 }
 th {
   font-family: Gotham-Rounded-Bold; 
+}
+
+.img-container {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 10px;
+}
+.inner-container {
+  width: 150px;
+  height: 100%;
+  border: 3px solid #F6BD43;
+  display: inline-block;
+  overflow: hidden;
+  text-align: center;
+}
+.small-container {
+  display: inline-block;
+  overflow: hidden;
+  width: 75px;
+  height: 100%;
+}
+.inner-container img {
+  width: 100%;
+  height: 100%;
+} 
+.small-container img {
+  width: 100%;
+  height: 49%;
+  border: 3px solid #F6BD43;
+}
+.small-container img:first-child {
+  margin-bottom: 3px;
+}
+
+#testong {
+  background-color: rgba(0,0,0,0.8);
+}
+#testong .modal-content {
+  background-color: rgba(0,0,0,0);
+  border: none;
+}
+#testong .close {
+  color: white;
 }
