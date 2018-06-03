@@ -13,6 +13,11 @@
   src: url(../fonts/GothamRoundedBold_21016.ttf);
 }
 
+@font-face {
+  font-family: Muli-ExtraBold;
+  src: url(../fonts/Muli-ExtraBold.ttf);
+}
+
 .font-muli {
   font-family: Muli;
 }
