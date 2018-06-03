@@ -2,6 +2,9 @@ html, body {
   overflow-x: hidden;
 }
 
+.dropdown-item:hover {
+  background-color: #F2FAFC;
+}
 .ml-auto .dropdown-menu {
   left: auto !important;
   right: 0px;
