@@ -1,10 +1,23 @@
-@keyframes cloudMove {
+@keyframes cloudMove1 {
   0%   {left:-25%;}
+  100% {left:100%;}
+}
+@keyframes cloudMove2 {
+  0%   {left:-75%;}
+  100% {left:100%;}
+}
+@keyframes cloudMove3 {
+  0%   {left:-25%;}
+  100% {left:100%;}
+}
+@keyframes cloudMove4 {
+  0%   {left:-45%;}
   100% {left:100%;}
 }
 
 html, body {
   overflow-x: hidden;
+  background-color: white;
 }
 
 .primary-text {
@@ -12,7 +25,7 @@ html, body {
 }
 .fade-primary-text {
   color: #DF3848;
-  font-size: 50pt;
+  font-size: 33pt;
   font-family: Gotham-Rounded-Bold;   
 }
 .bold {
@@ -66,12 +79,12 @@ html, body {
 
 /* Halaman 2 */
 #miopi-intro-details-container {
-  padding: 20px 15px 20px 58px;
+  padding: 20px 15px 20px 80px;
 }
 #miopi-intro-title {
   margin-bottom: 20px;
   font-family: Gotham-Rounded-Bold;
-  font-size: 28pt;
+  font-size: 25pt;
 }
 #miopi-img-container {
   padding: 60px 20px;
@@ -91,7 +104,7 @@ ul#miopi-intro-details > li {
   text-indent: -1em;
   margin-bottom: 15px;
   font-family: Muli;
-  font-size: 16pt;
+  font-size: 13pt;
 }
 
 #miopi-2050,
@@ -104,19 +117,19 @@ ul#miopi-intro-details > li {
 #miopi-2050-details-1,
 #eye-check-details-1,
 #ideal-range-details-1 {
-  font-size: 28pt;
+  font-size: 25pt;
   font-family: Gotham-Rounded-Bold;
 }
 #miopi-2050-details-2,
 #eye-check-details-2,
 #ideal-range-details-2 {
-  font-size: 24pt;
+  font-size: 20pt;
   font-family: Gotham-Rounded-Bold;
 }
 #miopi-2050-details-3, 
 #eye-check-details-3,
 #ideal-range-details-3 {
-  font-size: 16pt;
+  font-size: 13pt;
   font-family: Muli;
   color: #3F3F3F;
 }
@@ -125,17 +138,17 @@ ul#miopi-intro-details > li {
   padding: 60px 20px;
 }
 .cause-title {
-  font-size: 28pt;
+  font-size: 25pt;
   font-family: Gotham-Rounded-Bold;  
   color: #1A8FC8;  
 }
 .cause {
-  font-size: 21pt;
+  font-size: 18pt;
   font-family: Gotham-Rounded-Bold;
   color: #1A8FC8;    
 }
 .cause-description {
-  font-size: 16pt;
+  font-size: 13pt;
   font-family: Muli;
 }
 
@@ -150,14 +163,15 @@ ul#miopi-intro-details > li {
 }
 #solve-details {
   color: white;
-  padding: 60px 0;
+  padding-bottom: 120px;
+  padding-top: 40px;
 }
 #solve-details h3 {
-  font-size: 28pt;
+  font-size: 25pt;
   font-family: Gotham-Rounded-Bold;
 }
 #solve-details p {
-  font-size: 16pt;
+  font-size: 13pt;
   font-family: Muli;
 }
 #solve-button {
@@ -165,42 +179,45 @@ ul#miopi-intro-details > li {
   border-radius: 10px;
   padding-top: 8px;
   padding-bottom: 8px;
-  font-size: 16pt;
+  font-size: 13pt;
   font-family: Gotham-Rounded-Bold;
+  border: 2px solid #E03848; 
   /* transition: all .5s; */
 }
 #solve-button:hover {
   background-color: white;
   color: #E03848;
-  border: 1px solid #E03848; 
 }
 .cloud {
   position: absolute;
-  animation-name: cloudMove;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
 .cloud1 {
   margin-top: 5%;
-  animation-duration: 8s;
+  animation-name: cloudMove1;
+  animation-duration: 26s;
 }
 .cloud2 {
   margin-top: 6%;
-  animation-duration: 14s;
+  animation-name: cloudMove2;
+  animation-duration: 34s;
 }
 .cloud3 {
   margin-top: 8%;
-  animation-duration: 10s;
+  animation-name: cloudMove3;
+  animation-duration: 28s;
 }
 .cloud4 {
   margin-top: 12%;
-  animation-duration: 12s;
+  animation-name: cloudMove4;
+  animation-duration: 30s;
 }
 
 #subscription {
   text-align: center;
   font-family: Muli-Bold;
-  font-size: 21pt;
+  font-size: 18pt;
   color: #1A8EC7;
 }
 #subscription img {
@@ -208,10 +225,18 @@ ul#miopi-intro-details > li {
 }
 #subscription button {
   background-color: #1A8EC7;
-  border: 1px solid #1A8EC7;
+  border: 3px solid #1A8EC7;
+  border-left: none;
   color: white;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+  transition: all .5s;
+  font-family: Gotham-Rounded-Bold;
+}
+#subscription button:hover {
+  background-color: white;
+  color: #1A8EC7;
+  border-left: none;
 }
 #subscription input {
   border: 3px solid #1A8EC7;
@@ -303,20 +328,23 @@ ul#miopi-intro-details > li {
   display: inline-block;
   color: #1A8EC7;
 }
-.disease:hover {
+.disease-inner-container:hover {
   cursor: pointer;
 }
 .disease-title {
   color: #1A8EC7;
-  font-size: 28pt;
+  font-size: 25pt;
   font-family: Gotham-Rounded-Bold;  
+  line-height: 28pt
 }
 .disease-description {
-  font-size: 16pt;
+  font-size: 13pt;
   font-family: Muli;
 }
 .disease-detail {
   display: none !important;
+  padding-right: 55px;
+  padding-left: 50px;
 }
 .disease-detail b {
   font-family: Muli-Bold;

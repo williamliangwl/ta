@@ -1,6 +1,6 @@
 .description {
   text-align: center;
-  font-size: 16pt;
+  font-size: 13pt;
   font-family: Muli;
 }
 input.form-control, textarea.form-control {
@@ -8,8 +8,11 @@ input.form-control, textarea.form-control {
   margin: 20px 0;
   border-radius: 10px;
 }
+input.form-control:focus {
+  border: 3px solid #1A8EC7;
+}
 input.form-control {
-  padding: 12px;
+  padding: 9px;
 }
 button.btn-primary {
   background-color: #DF3848;
@@ -23,7 +26,7 @@ button.btn-primary:hover {
 }
 .sub-title {
   color: #1A8EC7;
-  font-size: 21pt;
+  font-size: 18pt;
   font-family: Gotham-Rounded-Bold;
 }
 .icon {
@@ -37,7 +40,7 @@ button.btn-primary:hover {
 .text-container {
   display: inline-block;
   margin-left: 15px;
-  font-size: 16pt;
+  font-size: 13pt;
   font-family: Muli;
 }
 .contact {

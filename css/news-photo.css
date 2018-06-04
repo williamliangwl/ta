@@ -1,21 +1,21 @@
 .title {
-  font-size: 28pt;
+  font-size: 25pt;
   color: #1A8EC7;
   font-family: Gotham-Rounded-Bold;
 }
 .icon {
-  width: 20px;
+  width: 16px;
 }
 .description, .date {
   font-family: Muli;
-  font-size: 16pt;
+  font-size: 13pt;
 }
 .period {
-  font-size: 23pt;
+  font-size: 17pt;
   font-family: Muli-Bold;
 }
 .sub-title {
-  font-size: 21pt;
+  font-size: 18pt;
   color: #1A8EC7;
   font-family: Gotham-Rounded-Bold;  
 }
@@ -27,11 +27,12 @@
 }
 .custom-ol {
   counter-reset: item;
-  font-size: 16pt;
+  font-size: 13pt;
   font-family: Muli;
 }
 .custom-li {
   counter-increment: item;
+  font-family: Gotham-Rounded-Bold;    
 }
 .custom-li:before {
   content: counter(item);
@@ -39,6 +40,9 @@
   border-radius: 100%;
   color: white;
   text-align: center;
+  padding: 5px 10px;
+}
+.custom-ol .item:first-of-type .custom-li:before {
   padding: 5px 12px;
 }
 #other {
@@ -47,7 +51,7 @@
   font-family: Muli;
 }
 .card-title {
-  font-size: 21pt;
+  font-size: 18pt;
   color: #1A8EC7;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -61,7 +65,11 @@
 .card {
   color: black;
   font-family: Muli;
+  font-size: 11pt;
 }
 a:hover {
   text-decoration: none;
+}
+.card:hover {
+  box-shadow: 0px 0px 11px 2px rgba(196,196,196,0.4);  
 }

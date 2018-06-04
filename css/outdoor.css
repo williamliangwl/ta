@@ -16,12 +16,12 @@
   font-size: 14.8pt;
   white-space: normal;
   line-height: normal;
+  border: 3px solid #DF3848;
   transition: all .5s;
 }
 .place-text:hover {
   background-color: white;
   color: #DF3848;
-  border: 1px solid #DF3848;
 }
 
 #museum {
@@ -30,7 +30,7 @@
   left: 29.8%;
 }
 #museum-text {
-  width: 45%;
+  width: 49%;
   top: 105%;
   left: 33%;
 }
@@ -63,7 +63,7 @@
   right: 19%;
 }
 #suropati-text {
-  width: 170%; 
+  width: 176%; 
   bottom: -120%;
   left: -100%; 
 }
@@ -107,9 +107,9 @@
   right: 32%;
 }
 #playparq-text {
-  width: 49%; 
+  width: 52%; 
   bottom: -10%;
-  left: -15%; 
+  left: -21%; 
 }
 
 #layang {
@@ -118,9 +118,9 @@
   left: 5%;
 }
 #layang-text {
-  width: 80%; 
-  bottom: -44%;
-  right: 5%; 
+  width: 85%; 
+  bottom: -46%;
+  right: 4%; 
 }
 
 .modal-header {
@@ -132,11 +132,11 @@
 }
 .modal-title {
   color: #1A8EC7;
-  font-size: 21pt;
+  font-size: 18pt;
   font-family: Gotham-Rounded-Bold;
 }
 .address {
-  font-size: 15pt;
+  font-size: 13pt;
   margin: 0.5rem 0;
   font-family: Muli;
 }
@@ -150,7 +150,7 @@
   font-family: Gotham-Rounded-Bold;  
 }
 .description {
-  font-size: 16pt;
+  font-size: 13pt;
   font-family: Muli;  
 }
 .cell-fit {
@@ -158,14 +158,14 @@
   white-space: nowrap;
 }
 .table {
-  font-size: 15pt;
+  font-size: 13pt;
   font-family: Muli;
 }
 .modal-lg {
   max-width: 700px;
 }
 th {
-  font-family: Gotham-Rounded-Bold; 
+  font-family: Muli-Bold; 
 }
 
 .img-container {

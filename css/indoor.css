@@ -11,32 +11,37 @@
   border: 2px solid #1A8EC7;
   border-radius: 10px;
   width: 100%;
-  height: 210px;
+  height: 290px;
   overflow: hidden;
+  position: relative;
 }
 .card-image img {
-  height: 100%;
-  width: 100%;
+  position: absolute;
+  width: 150%;
+  left: -25%;
 }
 .card-body {
   padding: 30px 60px;
 }
 .card-title {
   color: #1A8EC7;
-  font-size: 21pt;
+  font-size: 18pt;
   font-family: Muli-Bold;
 }
+.card-detail-container {
+  padding-left: 42px;
+}
 .card-description {
-  font-size: 16pt;
+  font-size: 13pt;
   font-family: Muli;
 }
 .detail-title {
   color: #1A8EC7;  
-  font-size: 17pt;
+  font-size: 15pt;
   font-family: Muli-Bold;  
 }
 .detail-description {
-  font-size: 16pt;
+  font-size: 13pt;
   font-family: Muli;  
 }
 .detail ul > li:before {
