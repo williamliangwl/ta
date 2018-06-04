@@ -1,6 +1,9 @@
 html, body {
   overflow-x: hidden;
 }
+.btn:focus {
+  box-shadow: none;
+}
 
 .dropdown-item:hover {
   background-color: #F2FAFC;

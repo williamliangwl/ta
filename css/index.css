@@ -66,7 +66,7 @@ html, body {
 
 /* Halaman 2 */
 #miopi-intro-details-container {
-  padding: 20px 15px;
+  padding: 20px 15px 20px 58px;
 }
 #miopi-intro-title {
   margin-bottom: 20px;
@@ -146,10 +146,11 @@ ul#miopi-intro-details > li {
 }
 #solve-container {
   padding-top: 20%;  
+  overflow: hidden;
 }
 #solve-details {
   color: white;
-  padding-top: 60px;
+  padding: 60px 0;
 }
 #solve-details h3 {
   font-size: 28pt;
@@ -166,6 +167,12 @@ ul#miopi-intro-details > li {
   padding-bottom: 8px;
   font-size: 16pt;
   font-family: Gotham-Rounded-Bold;
+  /* transition: all .5s; */
+}
+#solve-button:hover {
+  background-color: white;
+  color: #E03848;
+  border: 1px solid #E03848; 
 }
 .cloud {
   position: absolute;
@@ -271,11 +278,14 @@ ul#miopi-intro-details > li {
   position: absolute;
   font-size: 18pt;
   font-family: Gotham-Rounded-Bold;
-  top: 110px;
-  left: 110px;
+  top: 125px;
+  left: 155px;
   color: #1A8EC7;  
 }
-.disease-container:hover .bullet {
+.disease-inner-container {
+  margin: 5px 0;
+}
+.disease-inner-container:hover .bullet {
   background-color: #1A8EC7;
 }
 .bullet {
@@ -313,7 +323,12 @@ ul#miopi-intro-details > li {
 }
 .show {
   display: initial !important;
-
+}
+#horse-girl {
+  position: absolute;
+  bottom: -90px;
+  max-width: 110%;
+  right: 0;
 }
 
 @media only screen and (max-width: 576px) {

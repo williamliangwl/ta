@@ -20,15 +20,18 @@
 }
 #banner-button {
   background-color: #DF3848;
+  border: 1px solid #DF3848;
   padding: 13px;
   border-radius: 10px;
-  border: 0;
   color: white;
   font-family: Gotham-Rounded-Bold;  
   font-size: 16pt;
+  transition: all .5s;
 }
 #banner-button:hover {
   cursor: pointer;
+  background-color: white;
+  color: #DF3848;
 }
 #banner-image {
   position: absolute;
