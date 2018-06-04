@@ -52,3 +52,7 @@ button.btn-primary:hover {
 .contact-address {
   color: black;
 }
+.contact-address:hover {
+  text-decoration: none;
+  color: #1A8EC7;
+}
