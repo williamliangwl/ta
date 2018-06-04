@@ -80,7 +80,7 @@ html, body {
   left: 0;
 }
 
-.nav-item:hover .nav-link{
+.secondary-menu-container .nav-item:hover .nav-link{
   color: rgb(114,115,115) !important;
 }
 a.dropdown-item:active {

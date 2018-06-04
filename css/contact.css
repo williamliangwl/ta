@@ -16,13 +16,13 @@ input.form-control {
 }
 button.btn-primary {
   background-color: #DF3848;
-  border: 1px solid #DF3848;
+  border: 3px solid #DF3848;
   font-family: Gotham-Rounded-Bold;  
 }
 button.btn-primary:hover {
   background-color: white;
   color: #DF3848;
-  border: 1px solid #DF3848;
+  border: 3px solid #DF3848;
 }
 .sub-title {
   color: #1A8EC7;

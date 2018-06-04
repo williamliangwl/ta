@@ -60,14 +60,14 @@
 }
 button.btn-primary {
   background-color: #DF3848;
-  border: 1px solid #DF3848;
+  border: 3px solid #DF3848;
   font-family: Gotham-Rounded-Bold;  
   font-size: 11pt;
 }
 button.btn-primary:hover {
   background-color: white;
   color: #DF3848;
-  border: 1px solid #DF3848;
+  border: 3px solid #DF3848;
 }
 .img-indicator:first-child {
   margin-bottom: 10px;
