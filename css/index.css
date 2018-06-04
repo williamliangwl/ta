@@ -251,7 +251,7 @@ ul#miopi-intro-details > li {
   font-family: Muli;
   text-align: center;
   top: 20.4%;
-  left: 18.3%;
+  left: 18.2%;
   padding: 5.5% 3.4%;
   opacity: 0;
   transition: opacity .5s;
@@ -266,8 +266,8 @@ ul#miopi-intro-details > li {
   font-family: Muli;
   text-align: center;
   top: 44.5%;
-  left: 18.3%;
-  padding: 5.5% 5.8%;
+  left: 18.2%;
+  padding: 5.5% 5.4%;
   opacity: 0;
   transition: opacity .5s;
 }
@@ -282,7 +282,7 @@ ul#miopi-intro-details > li {
   text-align: center;
   top: 29.2%;
   left: 44.5%;
-  padding: 6.8% 4.7%;
+  padding: 6.8% 4.4%;
   opacity: 0;
   transition: opacity .5s;
   -webkit-clip-path: circle(84% at 18.8% 42%);
