@@ -143,11 +143,16 @@
 .map-button {
   background-color: #80B747;
   border-radius: 10px;
-  border: 0;
+  border: 3px solid #80B747;
   padding: 5px 10px;
   margin: 3px 0 20px;
   color: white;
   font-family: Gotham-Rounded-Bold;  
+}
+.map-button:hover {
+  background-color: white;
+  color: #80B747;
+  cursor: pointer;
 }
 .description {
   font-size: 13pt;
@@ -179,10 +184,11 @@ th {
 .inner-container {
   width: 150px;
   height: 100%;
-  border: 3px solid #F6BD43;
+  border: 1px solid rgb(161, 161, 161);
   display: inline-block;
   overflow: hidden;
   text-align: center;
+  transition: all .5s;  
 }
 .small-container {
   display: inline-block;
@@ -193,11 +199,13 @@ th {
 .inner-container img {
   width: 100%;
   height: 100%;
+  transition: all .5s;    
 } 
 .small-container img {
   width: 100%;
   height: 49%;
-  border: 3px solid #F6BD43;
+  border: 1px solid rgb(161, 161, 161);
+  transition: all .5s;
 }
 .small-container img:first-child {
   margin-bottom: 3px;
@@ -235,4 +243,13 @@ th {
 }
 .carousel-img-indicator img:hover {
   cursor: pointer;
+}
+.social-media {
+  width: 20px;
+}
+.inner-container:hover {
+  border: 4px solid #F6BD43;
+}
+.small-container img:hover {
+  border: 4px solid #F6BD43;
 }

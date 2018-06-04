@@ -49,3 +49,6 @@ button.btn-primary:hover {
 .contact-container {
   margin-top: 8px;
 }
+.contact-address {
+  color: black;
+}

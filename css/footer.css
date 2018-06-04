@@ -17,3 +17,6 @@ strong {
   height: auto;
   margin: 0 5px;
 }
+.img-social:hover {
+  cursor: pointer;
+}
