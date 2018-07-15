@@ -1,0 +1,36 @@
+.title {
+  font-size: 25pt;
+  color: #1A8EC7;
+  margin: 60px 0;
+  font-family: Gotham-Rounded-Bold;
+}
+.sub-title {
+  font-size: 18pt;
+  color: #1A8EC7;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  font-family: Gotham-Rounded-Bold;  
+}
+#jec-link {
+  color: #DF3848;
+  font-size: 13pt;
+  margin-bottom: 15px;
+  font-family: Muli-Bold;  
+}
+.description {
+  font-size: 13pt;
+  font-family: Muli;
+  padding: 0 30px;
+}
+#carrefour {
+  width: 40%;
+}
+.dim {
+  color: #C9E5EC;
+}
+#content {
+  text-align: center;
+}
+.container-fluid {
+  flex-grow: 1;
+}
