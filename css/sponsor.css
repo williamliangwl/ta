@@ -11,6 +11,9 @@
   margin-bottom: 5px;
   font-family: Gotham-Rounded-Bold;  
 }
+.secondary{
+  margin-top: 15px;
+}
 #jec-link {
   color: #DF3848;
   font-size: 13pt;
@@ -24,6 +27,15 @@
 }
 #carrefour {
   width: 40%;
+}
+#locknlock {
+  width: 55%;
+}
+#deli {
+  width: 47%;
+}
+#greebel {
+  width: 70%;
 }
 .dim {
   color: #C9E5EC;
