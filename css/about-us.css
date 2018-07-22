@@ -44,3 +44,12 @@
   font-size: 13pt;
   font-family: Muli-Bold;
 }
+
+@media only screen and (max-width: 576px) {
+  #content {
+    padding: 0px;
+  }
+  .description {
+    padding: 0px;
+  }
+}
