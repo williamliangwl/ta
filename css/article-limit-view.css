@@ -95,9 +95,20 @@ a:hover {
   font-family: Gotham-Rounded-Bold;
   color: #1A8EC7;
   font-size: 17pt;
-
 }
 .sub-li-item {
   padding-left: 0;
   padding-top: 6px;
+}
+
+@media only screen and (max-width: 576px) {
+  .custom-ol {
+    justify-content: center;
+  }
+  #other + .row  .col-12 {
+    margin-bottom: 10px;
+  }
+  .sub-li-container {
+    padding-right: 15px;
+  }
 }
