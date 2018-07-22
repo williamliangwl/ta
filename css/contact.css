@@ -56,3 +56,9 @@ button.btn-primary:hover {
   text-decoration: none;
   color: #1A8EC7;
 }
+
+@media only screen and (max-width: 576px) {
+  .contact-container {
+    margin-top: 20px;
+  }
+}
