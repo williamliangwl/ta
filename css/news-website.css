@@ -76,3 +76,9 @@ a:hover {
 a{
   color: #D83848;
 }
+
+@media only screen and (max-width: 576px) {
+  #other + .row  .col-12 {
+    margin-bottom: 10px;
+  }
+}

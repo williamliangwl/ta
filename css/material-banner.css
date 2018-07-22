@@ -1,6 +1,9 @@
 #container {
   margin-top: 80px;
 }
+#container-1 {
+  margin-top: 120px;
+}
 #material-banner {
   background-color: #80B747;
   border: 1px solid #80B747;
@@ -58,5 +61,8 @@
   }
   #material-banner .card-body img {
     text-align: center;
+  }
+  #container-1 {
+    margin-top: 10px;
   }
 }
