@@ -20,3 +20,17 @@ strong {
 .img-social:hover {
   cursor: pointer;
 }
+#footer a:hover {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 576px) {
+  #footer {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .img-social {
+    width: 20px;
+    margin: 0 2px;
+  }
+}
