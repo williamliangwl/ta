@@ -31,3 +31,15 @@
 #content {
   text-align: center;
 }
+
+@media only screen and (max-width: 576px) {
+  .title {
+    font-size: 17pt;
+  }
+  #jec {
+    width: 100%;
+  }
+  .description {
+    padding: 0px;
+  }
+}
