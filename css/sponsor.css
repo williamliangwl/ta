@@ -46,3 +46,20 @@
 .container-fluid {
   flex-grow: 1;
 }
+
+@media only screen and (max-width: 576px) {
+  #carrefour {
+    width: 80%;
+  }
+  #locknlock {
+    width: 80%;
+  }
+  #deli {
+    width: 80%;
+    margin-top: 3rem;
+  }
+  #greebel {
+    width: 80%;
+    margin-top: 3rem;
+  }
+}
