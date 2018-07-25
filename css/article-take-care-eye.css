@@ -43,7 +43,7 @@
 #other {
   font-size: 17pt;
   color: #1A8EC7;  
-  font-family: Muli;
+  font-family: Muli-Bold;
 }
 .card-title {
   font-size: 18pt;
@@ -96,5 +96,24 @@ a:hover {
   }
   #other + .row  .col-12 {
     margin-bottom: 10px;
+  }
+  #other {
+    font-size: 14pt;
+  }
+  .card-title {
+    font-size: 16pt;
+    line-height: 1.3;
+    margin-top: 5px;
+  }
+  .card-title + p {
+    line-height: 1.45;
+  }
+  .title {
+    font-size: 20pt;
+    line-height: 1.3;
+  }
+  .sub-title {
+    font-size: 16pt;
+    line-height: 1.3;
   }
 }
