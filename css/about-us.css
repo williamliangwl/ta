@@ -45,6 +45,11 @@
   font-family: Muli-Bold;
 }
 
+b {
+  font-family: Muli-Bold;
+  font-weight: initial;
+}
+
 @media only screen and (max-width: 576px) {
   #content {
     padding: 0px;

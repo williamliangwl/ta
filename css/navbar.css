@@ -86,6 +86,10 @@ html, body {
 a.dropdown-item:active {
   background-color: white;
 }
+
+.navbar-brand {
+  padding-left: 28px;
+}
 /* .dropdown-menu:before {
   position: absolute;
   top: -7px;
