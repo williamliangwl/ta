@@ -359,6 +359,16 @@ ul#miopi-intro-details > li {
   right: 0;
 }
 
+#whatIsMiopi {
+  margin-top: -150px
+}
+#miopi-reason-1 {
+  margin-top: -6px;
+}
+#miopi-reason-2 {
+  margin-top: 3px
+}
+
 @media only screen and (max-width: 576px) {
   #miopi-2050-details-1,
   #eye-check-details-1,
@@ -373,5 +383,79 @@ ul#miopi-intro-details > li {
   #miopi-cause1-container,
   #miopi-img-container {
     padding: 0px 20px;
+  }
+  .background {
+    bottom: 0;
+    top: initial;
+    max-width: 100%;
+  }
+  .main-bg {
+    -webkit-clip-path: ellipse(105% 68.30% at 50% 24%);
+    clip-path: ellipse(105% 68.30% at 50% 24%);
+  }
+  #whatIsMiopi {
+    margin-top: 0px
+  }
+  #miopi-intro-details-container {
+    padding: 0px;
+  }
+  #eye-normal {
+    top: 13%;
+    left: 19.3%;
+    padding: 3.9% 1.2%;
+    font-size: 11pt;
+  }
+  #eye-miopi {
+    top: 43.2%;
+    left: 19.3%;
+    padding: 3.9% 4.2%;
+    font-size: 11pt;
+  }
+  #eye-board {
+    font-size: 10pt;
+    top: 24%;
+    padding: 2.4% 2.3%;
+  }
+  #disease-container {
+    top: 40px;
+    left: 105px;
+    font-size: 14pt;
+  }
+  .disease {
+    font-size: 11pt;
+  }
+  #bahaya-miopi-boy {
+    bottom: -1.2%;
+  }
+  .disease-detail {
+    padding: 0;
+    margin-top: 35px;
+  }
+  #miopi-reason-1 {
+    margin-top: 20px;
+  }
+  #miopi-reason-2 {
+    margin-top: 20px
+  }
+  .input-group {
+    flex-direction: column;
+  }
+  .input-group > .form-control {
+    width: 100%;
+  }
+  #subscription input {
+    border-radius: 10px;
+  }
+  #subscription button {
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  #solve-details {
+    padding-bottom: 0px;
+  }
+  #horse-girl {
+    position: relative;
+    max-width: 100%;
+    bottom: -50px;
   }
 }
