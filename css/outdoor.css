@@ -23,6 +23,13 @@
   background-color: white;
   color: #DF3848;
 }
+.pin {
+  width: 20px !important;
+  position: absolute;
+}
+.pin:hover {
+  cursor: pointer;
+}
 
 #museum {
   width: 24%;
@@ -177,6 +184,7 @@ th {
   width: 100%;
   height: 150px;
   margin-bottom: 10px;
+  overflow: hidden;
 }
 .img-container:hover {
   cursor: pointer;
@@ -229,13 +237,16 @@ th {
   overflow: hidden;
   position: absolute;
   margin: 20px auto 0;
-  width: 90%;
+  width: 100%;
   text-align: center;
+  left: 0;
+  right: 0;
 }
 .carousel-img-indicator {
   display: inline-block;
   width: 75px;
   height: 50px;
+  margin-bottom: 5px;
 }
 .carousel-img-indicator img {
   width: 100%;
@@ -252,4 +263,30 @@ th {
 }
 .small-container img:hover {
   border: 4px solid #F6BD43;
+}
+.modal-carousel > .modal-dialog {
+  max-width: 56%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 576px) {
+  #intro {
+    padding: 0 !important;
+  }
+  .modal-body {
+    padding: 0 15px 16px;
+  }
+  .modal-carousel > .modal-dialog {
+    max-width: 100%;
+  }
+  .active {
+    width: 90%;
+    margin:auto;
+  }
+  .range-cell {
+    padding-bottom: 20px !important;
+  }
+  .d-table ul {
+    padding-left: 16px;
+  }
 }
