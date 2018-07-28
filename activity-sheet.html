@@ -81,10 +81,12 @@
 
   <div class="container-fluid">
     <br>
-    <br>
+    <div class="d-none d-md-block">
+      <br>
+    </div>
     <div class="row">
 
-      <div class="col-2" style="padding-left: 33px;">
+      <div class="col-2 d-none d-md-block" style="padding-left: 33px;">
         <p class="title">KATEGORI</p>
         <p class="filter" data-group="all" style="font-family: Muli-ExtraBold;">
           <span class="active">SEMUA</span>
@@ -119,7 +121,24 @@
         </div>
       </div>
 
-      <div class="col-10">
+      <div class="col-12 d-block d-md-none">
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <label class="input-group-text" for="inputGroupSelect01">Kategori</label>
+          </div>
+          <select class="custom-select" id="filter-select">
+            <option value="all" selected>Semua</option>
+            <option value="mewarnai">Mewarnai</option>
+            <option value="menggambar">Menggambar</option>
+            <option value="menggunting">Menggunting</option>
+            <option value="penalaran">Penalaran</option>
+            <option value="pertualangan">Pertualangan</option>
+            <option value="pengetahuan">Pengetahuan</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-10">
         <div class="row">
           <div class="col-4 toggler" id="memancingToggler">
             <div class="img-container">
@@ -144,14 +163,14 @@
         <div class="collapse group-1" id="memancingCollapse">
           <div class="card card-body">
             <div class="row">
-              <div class="col-2">
+              <div class="col-4 col-md-2">
                 <img src="./images/printable1-01.png" class="img-fluid img-indicator" alt="">
                 <img src="./images/printable1-02.png" class="img-fluid img-indicator" alt="">
               </div>
-              <div class="col-4">
+              <div class="col-8 col-md-4">
                 <img src="./images/printable1-01.png" class="img-fluid" alt="">
               </div>
-              <div class="col-5">
+              <div class="col-12 col-md-5">
                 <p class="title">AYO MEMANCING!</p>
                 <p class="description">
                   Dengan lembar aktivitas ini, anak bisa belajar penalaran, berhitung, mengenal objek, menggambar dengan menyambungkan titik,
@@ -169,15 +188,15 @@
         <div class="collapse group-1" id="menggambarCollapse">
           <div class="card card-body">
             <div class="row">
-              <div class="col-2">
+              <div class="col-4 col-md-2">
                 <img src="./images/printable3-01.png" class="img-fluid img-indicator" alt="">
                 <img src="./images/printable3-02.png" class="img-fluid img-indicator" alt="">
               </div>
-              <div class="col-4">
+              <div class="col-8 col-md-4">
                 <img src="./images/printable3-01.png" class="img-fluid" alt="">
 
               </div>
-              <div class="col-5">
+              <div class="col-12 col-md-5">
                 <p class="title">YUK MENGGAMBAR!</p>
                 <p class="description">
                   Ajak anak menggambar dengan mengikuti langkah-langkah yang ada di lembar aktivitas ini. Selain itu, anak bisa mewarnai dan
@@ -195,15 +214,15 @@
         <div class="collapse group-1" id="buahCollapse">
           <div class="card card-body">
             <div class="row">
-              <div class="col-2">
+              <div class="col-4 col-md-2">
                 <img src="./images/printable4-01.png" class="img-fluid img-indicator" alt="">
                 <img src="./images/printable4-02.png" class="img-fluid img-indicator" alt="">
               </div>
-              <div class="col-4">
+              <div class="col-8 col-md-4">
                 <img src="./images/printable4-01.png" class="img-fluid" alt="">
 
               </div>
-              <div class="col-5">
+              <div class="col-12 col-md-5">
                 <p class="title">BUAH DAN KEBUNKU</p>
                 <p class="description">
                   Anak bisa belajar mewarnai dan mengenal warna-warna buah yang sesungguhnya. Ada versi kebun juga, lho, yang bisa membuat
@@ -242,14 +261,14 @@
         <div class="collapse group-2" id="ikanCollapse">
           <div class="card card-body">
             <div class="row">
-              <div class="col-2">
+              <div class="col-4 col-md-2">
                 <img src="./images/printable2-01.png" class="img-fluid" alt="">
               </div>
-              <div class="col-4">
+              <div class="col-8 col-md-4">
                 <img src="./images/printable2-01.png" class="img-fluid" alt="">
 
               </div>
-              <div class="col-5">
+              <div class="col-12 col-md-5">
                 <p class="title">POLA IKAN</p>
                 <p class="description">
                   Digunakan khusus untuk aktivitas dalam ruangan yaitu memancing ikan dalam mangkok. Orang tua menggunting pola ikan ini untuk
@@ -267,15 +286,15 @@
         <div class="collapse group-2" id="objekCollapse">
           <div class="card card-body">
             <div class="row">
-              <div class="col-2">
+              <div class="col-4 col-md-2">
                 <img src="./images/printable5-01.png" class="img-fluid img-indicator" alt="">
                 <img src="./images/printable5-02.png" class="img-fluid img-indicator" alt="">
               </div>
-              <div class="col-4">
+              <div class="col-8 col-md-4">
                 <img src="./images/printable5-01.png" class="img-fluid" alt="">
 
               </div>
-              <div class="col-5">
+              <div class="col-12 col-md-5">
                 <p class="title">BERTUALANG MENCARI OBJEK</p>
                 <p class="description">
                   Berikan misi kepada anak untuk menemukan benda-benda di luar ruangan, seperti di taman. Selain asyik, anak bisa lebih mengetahui
@@ -293,15 +312,15 @@
         <div class="collapse group-2" id="hewanCollapse">
           <div class="card card-body">
             <div class="row">
-              <div class="col-2">
+              <div class="col-4 col-md-2">
                 <img src="./images/printable6-01.png" class="img-fluid img-indicator" alt="">
                 <img src="./images/printable6-02.png" class="img-fluid img-indicator" alt="">
               </div>
-              <div class="col-4">
+              <div class="col-8 col-md-4">
                 <img src="./images/printable6-01.png" class="img-fluid" alt="">
 
               </div>
-              <div class="col-5">
+              <div class="col-12 col-md-5">
                 <p class="title">MENGENAL HEWAN</p>
                 <p class="description">
                   Anak bisa belajar mengenal hewan-hewan dengan mengisi teka-teki silang yang ada di lembar aktivitas ini. Kemudian anak juga
@@ -319,23 +338,20 @@
       </div>
     </div>
 
-  </div>
-
-  <br/>
-
-  <div class="row align-items-center" id="footer">
-    <div class="col-9 col-md-3">
-      <span>&copy; Hak cipta oleh
-        <strong>FOKUS 2018</strong>
-      </span>
-    </div>
-    <div class="col-3 col-md-2" id="social-container">
-      <a href="https://www.facebook.com/fokus.idn" target="_blank">
-        <img class="img-social" id="footer-fb" src="./images/fb.png" />
-      </a>
-      <a href="https://www.instagram.com/fokusidn/" target="_blank">
-        <img class="img-social" id="footer-instagram" src="./images/instagram.png" />
-      </a>
+    <div class="row align-items-center" id="footer">
+      <div class="col-9 col-md-3">
+        <span>&copy; Hak cipta oleh
+          <strong>FOKUS 2018</strong>
+        </span>
+      </div>
+      <div class="col-3 col-md-2" id="social-container">
+        <a href="https://www.facebook.com/fokus.idn" target="_blank">
+          <img class="img-social" id="footer-fb" src="./images/fb.png" />
+        </a>
+        <a href="https://www.instagram.com/fokusidn/" target="_blank">
+          <img class="img-social" id="footer-instagram" src="./images/instagram.png" />
+        </a>
+      </div>
     </div>
   </div>
 
@@ -379,8 +395,25 @@
       ]
     };
 
+    $('#filter-select').change(function () {
+      const id = this.value;
+      handleShowItem(id);
+    });
+
     $('.filter').click(function () {
       let id = $(this).attr('data-group');
+      handleShowItem(id);
+    });
+
+    $('.filter-title').click(function () {
+      let span = $(this).children('span');
+      const isOpen = $(this).hasClass('collapsed');
+      if (span) {
+        $(span).text(isOpen ? '-' : '+');
+      }
+    });
+
+    function handleShowItem(id) {
       let visibles = group[id];
 
       $('.toggler').css('display', 'none');
@@ -395,15 +428,7 @@
       visibles.forEach(toggleId => {
         $('#' + toggleId).css('display', 'initial');
       });
-    });
-
-    $('.filter-title').click(function () {
-      let span = $(this).children('span');
-      const isOpen = $(this).hasClass('collapsed');
-      if (span) {
-        $(span).text(isOpen ? '-' : '+');
-      }
-    });
+    }
 
     function getModalId(togglerId) {
       switch (togglerId) {
