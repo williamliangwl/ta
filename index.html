@@ -178,7 +178,7 @@
           </div>
         </div>
       </div>
-      <div id="Katarak" class="col-11 col-md-4 d-none d-sm-block align-self-center disease-detail show">
+      <div id="Katarak" class="col-11 col-md-4 d-none d-sm-block align-self-center disease-detail impact-show">
         <p class="disease-title">KATARAK</p>
         <p class="disease-description">
           Katarak adalah pengeruhan yang terjadi pada lensa mata sehingga tidak bisa melihat dengan jelas.
@@ -367,8 +367,8 @@
   <script>
     $('.disease').click(function () {
       let id = $(this).attr('data-id');
-      $('.show').removeClass('show');
-      $('#' + id).addClass('show');
+      $('.impact-show').removeClass('impact-show');
+      $('#' + id).addClass('impact-show');
     });
   </script>
 
