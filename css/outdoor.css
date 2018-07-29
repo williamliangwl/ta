@@ -24,7 +24,7 @@
   color: #DF3848;
 }
 .pin {
-  width: 20px !important;
+  width: 18px !important;
   position: absolute;
 }
 .pin:hover {
@@ -41,6 +41,10 @@
   top: 105%;
   left: 33%;
 }
+#museum-pin {
+  top: -10%;
+  right: 11%;
+}
 
 #cattleya {
   width: 20%;
@@ -51,6 +55,10 @@
   width: 55%; 
   top: 75%;
   left: 55%; 
+}
+#cattleya-pin {
+  top: 3%;
+  left: 28%; 
 }
 
 #menteng {
@@ -63,6 +71,10 @@
   top: -45%;
   left: 27%; 
 }
+#menteng-pin {
+  top: -58%;
+  left: 37%; 
+}
 
 #suropati {
   width: 6%;
@@ -73,6 +85,10 @@
   width: 176%; 
   bottom: -120%;
   left: -100%; 
+}
+#suropati-pin {
+  top: 46%;
+  right: 173%; 
 }
 
 #rptra {
@@ -85,6 +101,10 @@
   bottom: -130%;
   right: 5%; 
 }
+#rptra-pin {
+  bottom: 58%;
+  right: 16%; 
+}
 
 #tabebuya {
   width: 23%;
@@ -95,6 +115,10 @@
   width: 50%; 
   bottom: 30%;
   right: -40%; 
+}
+#tabebuya-pin {
+  top: -33%;
+  left: 44%; 
 }
 
 #ragunan {
@@ -107,6 +131,10 @@
   bottom: 41%;
   right: 31%; 
 }
+#ragunan-pin {
+  bottom: 33%;
+  right: 43%; 
+}
 
 #playparq {
   width: 21.5%;
@@ -118,6 +146,10 @@
   bottom: -10%;
   left: -21%; 
 }
+#playparq-pin {
+  top: -28%;
+  left: 23%;
+}
 
 #layang {
   width: 20%;
@@ -128,6 +160,10 @@
   width: 85%; 
   bottom: -46%;
   right: 4%; 
+}
+#layang-pin {
+  top: -17%;
+  left: 42%;
 }
 
 .modal-header {
